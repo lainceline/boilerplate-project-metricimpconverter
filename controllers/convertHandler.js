@@ -128,6 +128,7 @@ function ConvertHandler() {
         result = 'invalid unit';
         break;
     }
+    result = parseFloat(result.toFixed(5));
     return result;
   };
   
